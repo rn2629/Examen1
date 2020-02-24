@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 using System.Threading;
 
@@ -37,7 +38,7 @@ namespace ExamenIntra
 
             foreach (Thread t in threads)
                 t.Start();
-            
+
             foreach (Thread t in threads)
                 t.Join();
         }
@@ -53,10 +54,19 @@ namespace ExamenIntra
             {
                 syracuse.Next();
                 Thread.Sleep(10);
-                lock(syracuse.verrou)
+                lock (syracuse.verrou)
                 {
                     i++;
                 }
+            }
+        }
+        void modif()
+        {
+            Stopwatch stopwatch = new Stopwatch();
+            while (stopwatch.ElapsedMilliseconds < 1000)
+            {
+                Console.WriteLine(syracuse.Iteration);
+                Thread.Sleep(10);
             }
         }
     }
