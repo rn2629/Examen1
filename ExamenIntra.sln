@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenIntra", "ExamenIntra\ExamenIntra.csproj", "{10E898EE-0121-4652-83AF-C8244CBD4BA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenIntraTests", "ExamenIntraTests\ExamenIntraTests.csproj", "{527A26EF-4111-477B-8C30-6B0FCD77D191}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10E898EE-0121-4652-83AF-C8244CBD4BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E898EE-0121-4652-83AF-C8244CBD4BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E898EE-0121-4652-83AF-C8244CBD4BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E898EE-0121-4652-83AF-C8244CBD4BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{527A26EF-4111-477B-8C30-6B0FCD77D191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527A26EF-4111-477B-8C30-6B0FCD77D191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527A26EF-4111-477B-8C30-6B0FCD77D191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527A26EF-4111-477B-8C30-6B0FCD77D191}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B0F2752-E8B3-4459-A3EA-6D1124854EDB}
+	EndGlobalSection
+EndGlobal
